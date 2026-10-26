@@ -12,7 +12,7 @@
 | 现代控制 | [modern-control-lab](https://github.com/Leslieryin/modern-control-lab) | 状态空间响应、能控能观判据、Ackermann 极点配置、状态观测器、卡尔曼滤波 |
 | 过程控制 | [process-control-lab](https://github.com/Leslieryin/process-control-lab) | 一阶加纯滞后对象、Smith 预估补偿、串级控制、前馈-反馈复合控制 |
 | 微机原理 | [8086-microcomputer-lab](https://github.com/Leslieryin/8086-microcomputer-lab) | 8255+8254 抢答计时器、8253+8259+ADC0808 定时采样，含 Proteus 仿真与重构前后对照 |
-| ↳ 在线仿真 | [8086-emulator-lab](https://github.com/Leslieryin/8086-emulator-lab) | 把上面的抢答器搬进浏览器：8086 CPU + 8255 仿真，单步执行、看标志位，不用装 Proteus |
+| ↳ 在线仿真 | [8086-emulator-lab](https://github.com/Leslieryin/8086-emulator-lab) | 把上面两个实验都搬进浏览器：8086 CPU + 8255/8253/8259/ADC0808 仿真，单步执行、看标志位、拖滑块改模拟量，不用装 Proteus |
 | 工程基础 | [database-course-design](https://github.com/Leslieryin/database-course-design) | SQL Server 从建库、约束、连接查询到索引、视图、触发器 |
 
 三层控制实验台是网页版的「看得见」，微机和数据库是实打实的「做得出」，最后又把这套课设的汇编直接搬进了浏览器。8253 为什么要拆成 1000×100 两级分频才凑得出 10Hz 中断、纯滞后为什么能让同一套 PID 参数从稳定一路走到发散、外键约束怎么被两个字母 `O` 写成数字 `0` 卡住、抢答器里一处 `JZ`/`JNZ` 写反让 1 号键彻底失效——这些坑都是当时蹲出来的，也都写进对应仓库的 README 了。
@@ -40,7 +40,7 @@
 | [modern-control-lab](https://github.com/Leslieryin/modern-control-lab) | 现代控制理论交互实验台，浏览器本地矩阵计算 |
 | [process-control-lab](https://github.com/Leslieryin/process-control-lab) | 过程控制实验台：纯滞后、Smith 预估、串级、前馈 |
 | [8086-microcomputer-lab](https://github.com/Leslieryin/8086-microcomputer-lab) | 8086 汇编课程设计：抢答计时器 + ADC0808 采样 |
-| [8086-emulator-lab](https://github.com/Leslieryin/8086-emulator-lab) | 浏览器里跑课设汇编的虚拟实验箱 |
+| [8086-emulator-lab](https://github.com/Leslieryin/8086-emulator-lab) | 浏览器里跑课设汇编的虚拟实验箱，含中断链路 |
 | [database-course-design](https://github.com/Leslieryin/database-course-design) | SQL Server 数据库设计：医疗挂号与租车 |
 | [photo-cleanup-pipeline](https://github.com/Leslieryin/photo-cleanup-pipeline) | 手机照片整理七步流水线 |
 | [windows-disk-cleanup](https://github.com/Leslieryin/windows-disk-cleanup) | Windows 磁盘清理，分层 + 默认只读 |
