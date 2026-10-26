@@ -10,10 +10,11 @@
 |---|---|---|
 | 经典控制 | [control-lab](https://github.com/Leslieryin/control-lab) | 二阶系统阶跃响应、PID、Bode、Nyquist、根轨迹，单文件网页，拖滑块实时看曲线 |
 | 现代控制 | [modern-control-lab](https://github.com/Leslieryin/modern-control-lab) | 状态空间响应、能控能观判据、Ackermann 极点配置、状态观测器、卡尔曼滤波 |
+| 过程控制 | [process-control-lab](https://github.com/Leslieryin/process-control-lab) | 一阶加纯滞后对象、Smith 预估补偿、串级控制、前馈-反馈复合控制 |
 | 微机原理 | [8086-microcomputer-lab](https://github.com/Leslieryin/8086-microcomputer-lab) | 8255+8254 抢答计时器、8253+8259+ADC0808 定时采样，含 Proteus 仿真与重构前后对照 |
 | 工程基础 | [database-course-design](https://github.com/Leslieryin/database-course-design) | SQL Server 从建库、约束、连接查询到索引、视图、触发器 |
 
-上面两个是网页版的「看得见」，下面两个是实打实的「做得出」——8253 为什么要拆成 1000×100 两级分频才凑得出 10Hz 中断、为什么 `AAM` 比 `DIV` 更适合拆十位个位、外键约束怎么被两个字母 `O` 写成数字 `0` 卡住，这些坑都是当时蹲出来的，也都写进对应仓库的 README 了。
+前三个是网页版的「看得见」，后两个是实打实的「做得出」——8253 为什么要拆成 1000×100 两级分频才凑得出 10Hz 中断、为什么 `AAM` 比 `DIV` 更适合拆十位个位、纯滞后为什么能让同一套 PID 参数从稳定一路走到发散、外键约束怎么被两个字母 `O` 写成数字 `0` 卡住，这些坑都是当时蹲出来的，也都写进对应仓库的 README 了。
 
 ## 解决自己的问题
 
@@ -36,6 +37,7 @@
 |---|---|
 | [control-lab](https://github.com/Leslieryin/control-lab) | 经典控制理论交互实验台，单文件 HTML |
 | [modern-control-lab](https://github.com/Leslieryin/modern-control-lab) | 现代控制理论交互实验台，浏览器本地矩阵计算 |
+| [process-control-lab](https://github.com/Leslieryin/process-control-lab) | 过程控制实验台：纯滞后、Smith 预估、串级、前馈 |
 | [8086-microcomputer-lab](https://github.com/Leslieryin/8086-microcomputer-lab) | 8086 汇编课程设计：抢答计时器 + ADC0808 采样 |
 | [database-course-design](https://github.com/Leslieryin/database-course-design) | SQL Server 数据库设计：医疗挂号与租车 |
 | [photo-cleanup-pipeline](https://github.com/Leslieryin/photo-cleanup-pipeline) | 手机照片整理七步流水线 |
