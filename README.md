@@ -1,10 +1,33 @@
-# 你好，我是 Leslieryin 👋
+# 你好，我是 f1sh 👋
 
-自动化专业在读。我喜欢用代码解决自己遇到的真实问题——这里的每个项目都始于「我自己需要这个」。
+天津，自动化专业在读。我喜欢用代码解决自己遇到的真实问题——这里的每个项目都始于「我自己需要这个」。
 
 [![全部作品在线可玩](https://img.shields.io/badge/%E5%85%A8%E9%83%A8%E4%BD%9C%E5%93%81-%E5%9C%A8%E7%BA%BF%E5%8F%AF%E7%8E%A9-0f6cbd?style=for-the-badge)](https://leslieryin.github.io/)
 
 四个实验台都能直接打开：拖滑块、按按钮、看波形，不用装环境，不用 clone。
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://leslieryin.github.io/control-lab/"><img src="assets/control-lab.png" width="100%" alt="自动控制原理交互实验台"></a>
+      <br><sub><b>经典控制</b> · 阶跃响应 / PID / Bode / Nyquist / 根轨迹</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://leslieryin.github.io/modern-control-lab/"><img src="assets/modern-control-lab.png" width="100%" alt="现代控制理论交互实验台"></a>
+      <br><sub><b>现代控制</b> · 状态空间 / 能控能观 / 极点配置 / 卡尔曼滤波</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://leslieryin.github.io/process-control-lab/"><img src="assets/process-control-lab.png" width="100%" alt="过程控制交互实验台"></a>
+      <br><sub><b>过程控制</b> · 纯滞后 / Smith 预估 / 串级 / 前馈-反馈</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://leslieryin.github.io/8086-emulator-lab/"><img src="assets/8086-emulator-lab.png" width="100%" alt="8086 虚拟实验箱"></a>
+      <br><sub><b>微机原理</b> · 8086 CPU + 8255/8253/8259/ADC0808，单步执行</sub>
+    </td>
+  </tr>
+</table>
 
 ## 一条从理论走到引脚的线
 
@@ -31,28 +54,37 @@
 ## 导航与延伸
 
 - 🗺️ **[awesome-automation-zh](https://github.com/Leslieryin/awesome-automation-zh)** —— 自动化专业开源资源导航：控制理论 / 嵌入式 / 机器人 / 电赛·智能车·RoboMaster，每条附点评和从大一到大四的学习路径
-- 📱 **开源二次开发** —— 为 [ArkPlots](https://github.com/ApodidaeDeSwift/ArkPlots)（明日方舟剧情管理工具）适配 Android 纯离线版（Capacitor，包体积 45MB→9MB），并向上游提交了安全加固 PR（更新包 SHA-256 校验、本地服务跨站防护）
+- 📱 **开源二次开发** —— 为 [ArkPlots](https://github.com/Leslieryin/ArkPlots)（明日方舟剧情管理工具）适配 Android 纯离线版（Capacitor，包体积 45MB→9MB），并向上游提交了安全加固 PR（更新包 SHA-256 校验、本地服务跨站防护）
 - 🎨 **[comfyui-teaching-kit](https://github.com/Leslieryin/comfyui-teaching-kit)** —— ComfyUI 教学工作流，专注本地 GGUF 量化模型的显存友好方案
 
 ## 仓库一览
 
-- [control-lab](https://github.com/Leslieryin/control-lab) —— 经典控制理论交互实验台，单文件 HTML
-- [modern-control-lab](https://github.com/Leslieryin/modern-control-lab) —— 现代控制理论交互实验台，浏览器本地矩阵计算
-- [process-control-lab](https://github.com/Leslieryin/process-control-lab) —— 过程控制实验台：纯滞后、Smith 预估、串级、前馈
-- [8086-microcomputer-lab](https://github.com/Leslieryin/8086-microcomputer-lab) —— 8086 汇编课程设计：抢答计时器 + ADC0808 采样
-- [8086-emulator-lab](https://github.com/Leslieryin/8086-emulator-lab) —— 浏览器里跑课设汇编的虚拟实验箱，含中断链路
-- [database-course-design](https://github.com/Leslieryin/database-course-design) —— SQL Server 数据库设计：医疗挂号与租车
-- [photo-cleanup-pipeline](https://github.com/Leslieryin/photo-cleanup-pipeline) —— 手机照片整理七步流水线
-- [windows-disk-cleanup](https://github.com/Leslieryin/windows-disk-cleanup) —— Windows 磁盘清理，分层 + 默认只读
-- [windows-healthcheck](https://github.com/Leslieryin/windows-healthcheck) —— Windows 一键体检，只读诊断
-- [bili-watcher](https://github.com/Leslieryin/bili-watcher) —— B 站随机观影与内容总结
-- [awesome-automation-zh](https://github.com/Leslieryin/awesome-automation-zh) —— 自动化专业开源资源导航
-- [comfyui-teaching-kit](https://github.com/Leslieryin/comfyui-teaching-kit) —— ComfyUI 教学工作流
-- [ArkPlots](https://github.com/Leslieryin/ArkPlots) —— 上游项目 fork：Android 离线版 + 安全加固
+| 仓库 | 是什么 | 在线打开 |
+| --- | --- | --- |
+| [leslieryin.github.io](https://github.com/Leslieryin/leslieryin.github.io) | 全部作品的入口页 | [在线](https://leslieryin.github.io/) |
+| [control-lab](https://github.com/Leslieryin/control-lab) | 经典控制理论交互实验台，单文件 HTML | [在线](https://leslieryin.github.io/control-lab/) |
+| [modern-control-lab](https://github.com/Leslieryin/modern-control-lab) | 现代控制理论交互实验台，手写矩阵运算 | [在线](https://leslieryin.github.io/modern-control-lab/) |
+| [process-control-lab](https://github.com/Leslieryin/process-control-lab) | 过程控制实验台：纯滞后 / Smith 预估 / 串级 / 前馈 | [在线](https://leslieryin.github.io/process-control-lab/) |
+| [8086-emulator-lab](https://github.com/Leslieryin/8086-emulator-lab) | 浏览器里跑课设汇编的 8086 虚拟实验箱 | [在线](https://leslieryin.github.io/8086-emulator-lab/) |
+| [8086-microcomputer-lab](https://github.com/Leslieryin/8086-microcomputer-lab) | 8086 汇编课程设计原件，含 Proteus 工程 | — |
+| [database-course-design](https://github.com/Leslieryin/database-course-design) | SQL Server 数据库设计：医疗挂号与租车 | — |
+| [photo-cleanup-pipeline](https://github.com/Leslieryin/photo-cleanup-pipeline) | 手机照片整理七步流水线 | — |
+| [windows-disk-cleanup](https://github.com/Leslieryin/windows-disk-cleanup) | Windows 磁盘清理，分层 + 默认只读 | — |
+| [windows-healthcheck](https://github.com/Leslieryin/windows-healthcheck) | Windows 一键体检，只读诊断 | — |
+| [bili-watcher](https://github.com/Leslieryin/bili-watcher) | B 站随机观影与内容总结 | — |
+| [awesome-automation-zh](https://github.com/Leslieryin/awesome-automation-zh) | 自动化专业开源资源导航 | — |
+| [comfyui-teaching-kit](https://github.com/Leslieryin/comfyui-teaching-kit) | ComfyUI 教学工作流 | — |
+| [ArkPlots](https://github.com/Leslieryin/ArkPlots) | fork：Android 纯离线版适配 + 安全加固 PR | — |
 
 ## 技术栈
 
 `Python` `TypeScript` `React` `Capacitor` `PowerShell` `8086 Assembly` `T-SQL` `ComfyUI`
+
+## 联系
+
+- 邮箱：[2317981734@qq.com](mailto:2317981734@qq.com)
+- 作品入口：[leslieryin.github.io](https://leslieryin.github.io/)
+- 问题与建议：直接在本仓库开 Issue
 
 ---
 
