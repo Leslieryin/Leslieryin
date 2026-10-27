@@ -82,7 +82,6 @@
 
 ## 联系
 
-- 邮箱：[2317981734@qq.com](mailto:2317981734@qq.com)
 - 作品入口：[leslieryin.github.io](https://leslieryin.github.io/)
 - 问题与建议：直接在本仓库开 Issue
 
