@@ -2,7 +2,7 @@
 
 > **EN** — Hi, I'm f1sh, an Automation student in Tianjin, China. Every project here started from a real problem I ran into: four interactive control and microcomputer labs that run straight in the browser, plus small tools for photo deduplication, disk cleanup, Windows diagnostics and Bilibili watching.
 
-天津，自动化专业在读。我喜欢用代码解决自己遇到的真实问题——这里的每个项目都始于「我自己需要这个」。
+自动化专业在读。我喜欢用代码解决自己遇到的真实问题——这里的每个项目都始于「我自己需要这个」。
 
 [![全部作品在线可玩](https://img.shields.io/badge/%E5%85%A8%E9%83%A8%E4%BD%9C%E5%93%81-%E5%9C%A8%E7%BA%BF%E5%8F%AF%E7%8E%A9-0f6cbd?style=for-the-badge)](https://leslieryin.github.io/)
 
