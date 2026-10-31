@@ -1,12 +1,12 @@
 # 你好，我是 f1sh 👋
 
-> **EN** — Hi, I'm f1sh, an Automation student in Tianjin, China. Every project here started from a real problem I ran into: four interactive control and microcomputer labs that run straight in the browser, plus small tools for photo deduplication, disk cleanup, Windows diagnostics and Bilibili watching.
+> **EN** — Hi, I'm f1sh, an Automation student in Tianjin, China. Every project here started from a real problem I ran into: five interactive labs (signals & systems, three control courses, and a microcomputer emulator) that run straight in the browser, plus small tools for photo deduplication, disk cleanup, Windows diagnostics and Bilibili watching.
 
 自动化专业在读。我喜欢用代码解决自己遇到的真实问题——这里的每个项目都始于「我自己需要这个」。
 
 [![全部作品在线可玩](https://img.shields.io/badge/%E5%85%A8%E9%83%A8%E4%BD%9C%E5%93%81-%E5%9C%A8%E7%BA%BF%E5%8F%AF%E7%8E%A9-0f6cbd?style=for-the-badge)](https://leslieryin.github.io/)
 
-四个实验台都能直接打开：拖滑块、按按钮、看波形，不用装环境，不用 clone。
+五个实验台都能直接打开：拖滑块、按按钮、看波形，不用装环境，不用 clone。
 
 <table>
   <tr>
@@ -29,12 +29,20 @@
       <br><sub><b>微机原理</b> · 8086 CPU + 8255/8253/8259/ADC0808，单步执行</sub>
     </td>
   </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://leslieryin.github.io/signals-lab/"><img src="assets/signals-lab.png" width="100%" alt="信号与系统交互实验台"></a>
+      <br><sub><b>信号与系统</b> · 采样混叠 / 傅里叶级数 / 卷积 / RC 滤波器 / AM 调幅</sub>
+    </td>
+    <td></td>
+  </tr>
 </table>
 
 ## 一条从理论走到引脚的线
 
 自动化这个专业有意思的地方在于：同一套东西可以从传递函数一路做到芯片引脚上。课上学的内容，我都做成了能跑起来的东西：
 
+- **信号与系统** —— [signals-lab](https://github.com/Leslieryin/signals-lab)：拖动采样率亲眼看 5kHz 混叠成 3kHz、方波合成的吉布斯过冲恒定 8.95%、卷积滑动面积、RC 的 −3dB 与 63.2%、AM 频谱搬移。
 - **经典控制** —— [control-lab](https://github.com/Leslieryin/control-lab)：二阶系统阶跃响应、PID、Bode、Nyquist、根轨迹，单文件网页，拖滑块实时看曲线。
 - **现代控制** —— [modern-control-lab](https://github.com/Leslieryin/modern-control-lab)：状态空间响应、能控能观判据、Ackermann 极点配置、状态观测器、卡尔曼滤波。
 - **过程控制** —— [process-control-lab](https://github.com/Leslieryin/process-control-lab)：一阶加纯滞后对象、Smith 预估补偿、串级控制、前馈-反馈复合控制。
@@ -68,6 +76,7 @@
 | [modern-control-lab](https://github.com/Leslieryin/modern-control-lab) | 现代控制理论交互实验台，手写矩阵运算 | [在线](https://leslieryin.github.io/modern-control-lab/) |
 | [process-control-lab](https://github.com/Leslieryin/process-control-lab) | 过程控制实验台：纯滞后 / Smith 预估 / 串级 / 前馈 | [在线](https://leslieryin.github.io/process-control-lab/) |
 | [8086-emulator-lab](https://github.com/Leslieryin/8086-emulator-lab) | 浏览器里跑课设汇编的 8086 虚拟实验箱 | [在线](https://leslieryin.github.io/8086-emulator-lab/) |
+| [signals-lab](https://github.com/Leslieryin/signals-lab) | 信号与系统交互实验台：采样 / 傅里叶 / 卷积 / 滤波 / 调制 | [在线](https://leslieryin.github.io/signals-lab/) |
 | [8086-microcomputer-lab](https://github.com/Leslieryin/8086-microcomputer-lab) | 8086 汇编课程设计原件，含 Proteus 工程 | — |
 | [database-course-design](https://github.com/Leslieryin/database-course-design) | SQL Server 数据库设计：医疗挂号与租车 | — |
 | [photo-cleanup-pipeline](https://github.com/Leslieryin/photo-cleanup-pipeline) | 手机照片整理七步流水线 | — |
